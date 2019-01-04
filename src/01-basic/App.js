@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+// FIRST VERSION
+// The goal here is to convert the section and the h1 in styled components
+
 export class App extends Component {
   render() {
     return (
@@ -9,3 +12,6 @@ export class App extends Component {
     );
   }
 }
+
+// SECOND VERSION
+// Try to convert only the section to style component, and from that style component target the h1 child to style it
