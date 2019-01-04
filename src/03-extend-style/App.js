@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { SearchSvg } from '../assets/magnifier-tool.svg';
 export class App extends Component {
   render() {
     return (
@@ -69,7 +68,7 @@ export class App extends Component {
           />
           <div className="logo-input">
             <input placeholder="Search something" />
-            <i class="fas fa-search" />
+            <i className="fas fa-search" />
           </div>
         </section>
       </Fragment>
