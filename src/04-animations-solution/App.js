@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import styled, {keyframes} from "styled-components";
+import React, { Component } from 'react';
+import styled, { keyframes } from 'styled-components';
 
 const BounceAnimation = keyframes`
   0% { margin-bottom: 0; }
@@ -12,7 +12,7 @@ const CenterWrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-`
+`;
 const DotWrapper = styled.div`
   display: flex;
   align-items: flex-end;
@@ -32,11 +32,11 @@ export class App extends Component {
     return (
       <CenterWrapper>
         <DotWrapper>
-          <Dot delay="0s"/>
-          <Dot delay=".1s"/>
-          <Dot delay=".2s"/>
+          <Dot delay="0s" />
+          <Dot delay=".1s" />
+          <Dot delay=".2s" />
         </DotWrapper>
       </CenterWrapper>
-    )
+    );
   }
 }
