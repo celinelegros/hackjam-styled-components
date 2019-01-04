@@ -31,4 +31,18 @@ Since Styled Components are in fact React Components, you can modify the style b
 
 ### 3. Extend Style
 
- 
+In this exercise you can see that you have 3 inputs. All of the base input have the same style, and then some specific style is applied via classNames
+
+The goal here is to create a "base" StyledInput, and then to create different Styled Components that extends the base style
+
+### 4. Animations
+
+### 5. Themes
+
+### 6. Responsive
+
+### 7. Final exercise
+
+The final exercise is a mix of all the concepts that you have learned during this session! 
+
+
