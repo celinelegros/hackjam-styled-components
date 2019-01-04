@@ -68,9 +68,9 @@ export class App extends Component {
       <StyledSection>
         <InputDefault placeholder="default input" />
         <StyledInput placeholder="styled input" />
-        <DisabledInput placeholder="disabled" disabled="disabled" />
+        <DisabledInput placeholder="disabled input" disabled="disabled" />
         <InputLogoContainer>
-          <InputLogo placeholder="awesome Input" />
+          <InputLogo placeholder="awesome input" />
           <i className="fas fa-search" />
         </InputLogoContainer>
       </StyledSection>

@@ -60,14 +60,15 @@ export class App extends Component {
       `}
         </style>
         <section>
-          <input placeholder="Placeholder" className="styled-input" />
+          <input placeholder="default input" />
+          <input placeholder="styled input" className="styled-input" />
           <input
-            placeholder="Disabled"
+            placeholder="disabled input"
             disabled="disabled"
             className="disabled"
           />
           <div className="logo-input">
-            <input placeholder="Search something" />
+            <input placeholder="awesome input" />
             <i className="fas fa-search" />
           </div>
         </section>
