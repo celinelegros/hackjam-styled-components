@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-
+const LIGHT = 'light';
+const DARK = 'dark';
 
 // Create a lightTheme object and a darkTheme object
 // They both need to have a primary and a textColor property, which are just color in strings
 
-const ligthTheme = {
+const lightTheme = {
 
 }
 
@@ -15,10 +16,10 @@ const darkTheme = {
 export class App extends Component {
 
   state = {
-    theme: 'light'
+    theme: LIGHT
   };
 
-  toggleTheme = () => this.setState({theme: this.state.theme === 'light' ? 'dark' : 'light'});
+  toggleTheme = () => this.setState({theme: this.state.theme === LIGHT ? DARK : LIGHT});
 
   render() {
     const {theme} = this.state;

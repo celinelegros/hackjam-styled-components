@@ -10,6 +10,10 @@
 
 Each exercise will teach you about a concept of Styled Components in React. To jump from one exercise to another, edit `src/index.js` and change the path of the import of the `<App />` component.
 
+## Resources
+
+https://www.styled-components.com/docs
+
 ##
 
 ### 1. Basics
@@ -37,9 +41,22 @@ The goal here is to create a "base" StyledInput, and then to create different St
 
 ### 4. Animations
 
+Let's try to create a small loading animation using Styled Components.
+We gave you the same animation using css, try to recreate it using Styled Components, there are comments in the file!
+
 ### 5. Themes
 
+Who doesn't love when there is a dark theme available for the website that they are visiting?
+
+Try to play with the Themes feature, we already did some of the react logic to toggle the theme, try to use it in the app
+
+```hint: check the ThemeProvider in the Styled Components documentation```
+
 ### 6. Responsive
+
+Styled Components also provides you a way to handle media queries. Check the documentation about them.
+
+In this exercise the color changes depending on the width of the screen, try to replicate that feature using Styled Components!
 
 ### 7. Final exercise
 

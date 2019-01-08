@@ -1,5 +1,13 @@
 import React, { Component, Fragment } from 'react';
 
+/*
+
+ You have some animations in the style here, try to create an animation using Styled Components (hint: there is a keyframe function)
+ The section should be transformed into a Styled Component, and the div as well
+ Each span should be a Styled Component, where you put the animation delay in props
+ */
+
+
 export class App extends Component {
   render() {
     return (
