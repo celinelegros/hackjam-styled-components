@@ -3,7 +3,7 @@
 ## Getting started
 
 - Clone the repository
-- Install the dependencies (run ```yarn``` or ```npm install```)
+- Install the dependencies (run `yarn` or `npm install`)
 - Have fun!
 
 ## How to use this repo
@@ -18,16 +18,17 @@ https://www.styled-components.com/docs
 
 ### 1. Basics
 
-The goal of this exercise to learn how to create Styled Components. 
+The goal of this exercise to learn how to create Styled Components.
 
-If you take a look at the App Component you can see that it renders a ```section``` tag and this tag renders a ```h3```
+If you take a look at the App Component you can see that it renders a `section` tag and this tag renders a `h3`
 
 ##### First version
+
 Create a StyledSection and a StyledTitle and use them in the App.js
 
 ##### Second version
-Try to replicate the same app with only one Styled Component. You can target children from a Style Component to style them
 
+Try to replicate the same app with only one Styled Component. You can target children from a Style Component to style them
 
 ### 2. Props
 
@@ -50,16 +51,10 @@ Who doesn't love when there is a dark theme available for the website that they 
 
 Try to play with the Themes feature, we already did some of the react logic to toggle the theme, try to use it in the app
 
-```hint: check the ThemeProvider in the Styled Components documentation```
+`hint: check the ThemeProvider in the Styled Components documentation`
 
 ### 6. Responsive
 
 Styled Components also provides you a way to handle media queries. Check the documentation about them.
 
 In this exercise the color changes depending on the width of the screen, try to replicate that feature using Styled Components!
-
-### 7. Final exercise
-
-The final exercise is a mix of all the concepts that you have learned during this session! 
-
-
