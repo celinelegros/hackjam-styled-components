@@ -20,7 +20,7 @@ https://www.styled-components.com/docs
 
 The goal of this exercise to learn how to create Styled Components.
 
-If you take a look at the App Component you can see that it renders a `section` tag and this tag renders a `h3`
+If you take a look at the App Component you can see that it renders a `section` tag and this tag renders a `h1`
 
 ##### First version
 
